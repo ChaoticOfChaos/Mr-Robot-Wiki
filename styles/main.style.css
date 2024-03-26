@@ -1,0 +1,36 @@
+@font-face {
+    font-family: MRROBOT;
+    src: url('../fonts/MRROBOT.ttf');
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    background-color: black;
+}
+
+.title {
+    font-family: MRROBOT, Arial, sans-serif;
+    font-size: 60px;
+    color: red;
+}
+
+.main-line {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+    width: 500px;
+    height: 100%;
+    background-color: red;
+    text-align: center;
+}
+
+.hello-friend {
+    position: relative;
+    font-family: MRROBOT, Arial, sans-serif;
+}
