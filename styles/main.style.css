@@ -18,6 +18,10 @@ html {
     color: red;
 }
 
+a {
+    color: white;
+}
+
 .main-line {
     position: absolute;
     left: 50%;
@@ -33,4 +37,13 @@ html {
 .hello-friend {
     position: relative;
     font-family: MRROBOT, Arial, sans-serif;
+}
+
+.hidden-button {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    left: 1200px;
+    top: 500px;
 }

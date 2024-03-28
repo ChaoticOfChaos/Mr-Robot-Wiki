@@ -1,0 +1,17 @@
+html {
+    background-color: black;
+}
+
+.input {
+    position: relative;
+    color: white;
+}
+
+.terminal {
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+    background-color: black;
+    color: white;
+    border: hidden;
+}
